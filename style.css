@@ -314,8 +314,9 @@
   flex-direction: column;
   color: white;
   margin: 0px auto;
-  max-width: 980px; /* match with reasons-wrapper */
+  max-width: 980px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .faqs h2{
@@ -336,17 +337,17 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0px 8px;
-  max-width: 980px; /* match with reasons-wrapper */
+  max-width: 980px; 
   width: 100%;
   box-sizing: border-box;
 }
 
 .faq-item{
+  width: 100%;
   color: white;
   transition: max-height 0.4s ease;
   margin-bottom: 8px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -551,12 +552,12 @@
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 12px 24px;
 }
 
 .footer-links a {
-  color: #999;
+  color: white;
   text-decoration: none;
   font-size: 14px;
 }
@@ -566,13 +567,13 @@
 }
 
 .region-name{
-  font-size: 16px;
-  color: #999;
+  font-size: 18px;
+  color: white;
   margin-top: 12px;
 }
 
 .exit-note{
-  font-size: 12px;
-  color: #999;
+  font-size: 14px;
+  color: white;
   margin-top: 12px;
 }
