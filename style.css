@@ -258,7 +258,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 30px;
+  padding: 0px 28px;
   align-items: center;
 }
 
@@ -434,16 +434,16 @@
     font-size: 18px;
   }
   .question {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .answer {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .faq-item img{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -530,78 +530,49 @@
 
 .footer {
   background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: start;
-  padding: 0px 30px;
-  align-items: start;
+  padding: 40px 24px;
+  color: white;
+  font-size: 16px;
 }
 
 .footer-wrapper {
-  padding: 24px 0px;
-  margin: 0px auto;
+  max-width: 1000px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  color: white;
+  gap: 24px;
 }
 
 .contact{
-
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: white;
 }
 
 .footer-links {
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px 24px;
 }
 
-.language-2{
-  display: inline-flex;
-  align-items: center;
-  border: 1px solid #888;
-  border-radius: 4px;
-  padding: 4px 12px;
-  background-color: transparent;
-  color: white;
-  height: 24px;
-  z-index: 1;
-  margin: auto;
-}
-
-#symbol-2{
-  width: 16px;
-  height: 16px;
-  margin-right: 2px;
-  flex-shrink: 0;
-}
-
-#language-2{
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: transparent;
-  border: none;
-  color: white;
+.footer-links a {
+  color: #999;
+  text-decoration: none;
   font-size: 14px;
-  padding: 0px 20px 0px 5px;
-  width: 100%;
-  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
-  background-repeat: no-repeat;
-  background-position: right -2px center;
 }
 
-#language-2:focus {
-  outline: none;
-}
-
-#language-2 option{
-  color: black;
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
 .region-name{
-
+  font-size: 16px;
+  color: #999;
+  margin-top: 12px;
 }
 
 .exit-note{
-  
+  font-size: 12px;
+  color: #999;
+  margin-top: 12px;
 }
